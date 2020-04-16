@@ -1,0 +1,18 @@
+.quote{
+    height: 60%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    transition-duration: .8s;
+    opacity: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%
+}
+
+button{
+    cursor: pointer;
+    text-decoration: none;   
+}

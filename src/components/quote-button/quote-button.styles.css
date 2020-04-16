@@ -1,0 +1,18 @@
+.quote-button{
+    width: 8%;
+    height: 28px;
+    cursor: pointer;
+    border: none;
+    transition-duration: .8s;
+    float: right;
+    font-size: 10px;
+    color: white;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 5%;
+    position: fixed
+}        
+
+.quote-button.active{
+    opacity: .5
+}
