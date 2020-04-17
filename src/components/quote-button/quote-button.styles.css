@@ -3,16 +3,24 @@
     height: 28px;
     cursor: pointer;
     border: none;
-    transition-duration: .8s;
+    transition-duration: .3s;
     float: right;
-    font-size: 10px;
     color: white;
     opacity: 1;
     border-radius: 20px;
     margin: 5%;
-    position: fixed
+    position: absolute;
+    left: 60%;
+    top: 63%;
 }        
 
-.quote-button.active{
-    opacity: .5
+.quote-button.active{    
+    transform: scale(1.1);
+}
+
+.button_title{
+    font-size: .7em;
+    position: absolute;
+    top: 22%;
+    left: 14%
 }
