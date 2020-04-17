@@ -13,7 +13,7 @@ export const QuoteButton = (props) => {
             style={{
                 backgroundColor: props.color
             }}>
-                <div className={"button_title"}>Get New Quote!</div>
+                <div className="button_title">New Quote</div>
         </div>
     )
 }

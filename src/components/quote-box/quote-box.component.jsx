@@ -1,6 +1,7 @@
 import React from 'react';
 import './quote-box.styles.css'
-import { QuoteButton } from '../quote-button/quote-button.component'
+import { QuoteButton } from '../quote-button/quote-button.component';
+import twitter from '../../images/twitter.png';
 
 export const QuoteBox = (props) => {
 
@@ -14,6 +15,23 @@ export const QuoteBox = (props) => {
             color={props.color} 
             handleClick={props.handleClick}
         />
+        <div 
+            className='twitter'
+            style={{
+                backgroundColor: props.color
+            }}
+            >
+            <a 
+                href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${encodeURIComponent(props.quote)}-${encodeURIComponent(props.author)}`} 
+            >
+                <img 
+                src={twitter}
+                height= '50px'
+                width= '50px'
+                alt='twitter share button'
+                />
+            </a>
+        </div>
     </React.Fragment>
     )
 }

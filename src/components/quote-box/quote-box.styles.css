@@ -12,6 +12,32 @@
     padding: 2%
 }
 
+.twitter{
+    width: 6%;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+    transition-duration: .8s;
+    float: right;
+    color: white;
+    opacity: 1;
+    border-radius: 20px;
+    left: 28%;
+    margin-top: 3%;
+    position: absolute;
+    top: 63%;
+}   
+
+.twitter.active{
+    transform: scale(1.2);
+}
+
+.quote p{
+    float: right;
+    position: fixed;
+    right: 6%;
+}
+
 button{
     cursor: pointer;
     text-decoration: none;   
